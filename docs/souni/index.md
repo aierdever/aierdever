@@ -1,3 +1,0 @@
-- [指南](./frame/readme.md)
-- [组件](./components/readme.md)
-- [js](./js/readme.md)
