@@ -25,5 +25,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: vuepress # The branch the action should deploy to.
+          BRANCH: page # The branch the action should deploy to.
           FOLDER: .vuepress/dist # The folder the action should deploy.
