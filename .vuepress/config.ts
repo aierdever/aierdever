@@ -7,6 +7,11 @@ export default defineUserConfig({
   title: "爱尔前端文档博客",
   description: "爱尔前端Api手册、技术博客",
   port: 1208,
+    locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
   theme: recoTheme({
     password: ['cbe2a69f9c79e5c68448734d1a580dae','1129cdf905e4e68fe0be1022d143ee05'],
     autoSetSeries: true,
