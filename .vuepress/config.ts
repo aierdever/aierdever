@@ -36,6 +36,16 @@ export default defineUserConfig({
         { text: "Js", link: "/docs/souni/js/index.html" },
       ],
       },
+      { text: "PC端框架手册", link: "/docs/pcwork/index.html",
+      children: [
+        { text: "指南", link: "/docs/pcwork/index.html" },
+        { text: "样式及图标", link: "/docs/pcwork/css/index.html" },
+        { text: "数据表格", link: "/docs/pcwork/datagrid/index.html" },
+        { text: "表单", link: "/docs/pcwork/form/index.html" },
+        { text: "弹窗", link: "/docs/pcwork/pop/index.html" },
+        { text: "其他", link: "/docs/pcwork/other/index.html" },
+      ],
+      },
       {
         text: "文档",
         children: [

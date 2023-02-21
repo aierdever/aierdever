@@ -7,7 +7,7 @@ modules:
   - Footer
 banner:
   heroText: 石火之间
-  tagline: 光辉在当下，愿岁月无可回头...
+  tagline: 岁月不回首，峰峦漫月明...
   # heroImage: 'logo.png'
   bgImage: '/homebanner.jpg'
   bgImageStyle:
