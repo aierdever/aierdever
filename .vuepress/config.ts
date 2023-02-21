@@ -28,7 +28,7 @@ export default defineUserConfig({
     navbar: [
       { text: "首页", link: "/" },
       { text: "分类", link: "/categories/reco/1/" },
-      { text: "标签", link: "/tags/tag1/1/" },
+      { text: "标签", link: "/tags/reco/1/" },
       { text: "soUni", link: "/docs/souni/index.html",
       children: [
         { text: "指南", link: "/docs/souni/frame/index.html" },
