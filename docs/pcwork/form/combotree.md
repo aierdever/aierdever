@@ -1,0 +1,91 @@
+---
+title: "combotree下拉树"
+subSidebar: true
+categories:
+- pc框架
+tags:
+- pc框架 , 表单
+comments: true
+---
+:::: tip 说明
+
+`combotree`是`easyUI`的一个很实用的控件，功能完整，快速平台中没有做进一步封装，这里只做常用示例。
+
+更多实例请 [参考这里](http://www.jeasyui.net/demo/497.html)
+
+::::
+
+## 示例代码：
+
+**html方式初始化:**
+
+```html
+<label class="col-xs-2 control-label">关联组织：</label>
+<div class="col-xs-4 control-cont"><!-- input添加class easyui-combotree来初始化combobox -->
+  <input class="form-control easyui-combotree required" style="width:100%;" 
+    data-options="url:'json/groupTree.js',method:'get',flatData:true,multiple:true,onlyLeafCheck:true" 
+    type="text" 
+    name="group" 
+    value="" maxlength="20" 
+    placeholder="请选择关联组织"
+  />
+</div>
+```
+
+**js方式初始化:**
+
+```js
+$('#cc').combotree({
+    url: 'get_data.php',//请求地址
+    flatData:true,//采用扁平数据结构
+    onlyLeafCheck :true, //是否只子节点可点击
+    multiple:true//是否多选
+});
+```
+
+**js方式赋值：**
+
+```js
+$('#cc').combotree('setValue', 6);//setValue
+
+$('#cc').combotree('setValue', {//setValue
+  id: 61,
+  text: 'text61'
+});
+
+$('#cc').combotree('setValues', [1,3,21]);//setValues
+
+$('#cc').combotree('setValues', [1,3,21,{id:73,text:'text73'}]);//setValues
+
+$('#cc').combotree('clear');//清除赋值
+```
+
+**数据参考：**
+
+```json
+[ {
+    pid:null,
+    id:1,
+    name:"根组织"
+}, {
+    pid:1,
+    id:11,
+    name:"爱尔总部"
+}, {
+    pid:11,
+    id:111,
+    name:"长沙爱尔"
+}, {
+    pid:111,
+    id:1111,
+    name:"长沙爱尔财务",
+    checked:true//是否被选中
+}, {
+    pid:11,
+    id:115,
+    name:"广州爱尔"
+    pid:11,
+    id:1110,
+    name:"vv3"
+} ];
+```
