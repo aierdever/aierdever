@@ -26,15 +26,5 @@ const series:Serices = {
         children: ["index.html","01.tools", "02.ajax","03.pop","04.rules","05.sys"],
       },
     ],
-    "/docs/theme-reco/": [
-      {
-        text: "module one",
-        children: ["home", "theme"],
-      },
-      {
-        text: "module two",
-        children: ["api", "plugin"],
-      },
-    ],
 }
 export default series;
