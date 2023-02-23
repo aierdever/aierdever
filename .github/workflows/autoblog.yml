@@ -29,25 +29,15 @@ jobs:
       #     BRANCH: page # The branch the action should deploy to.
       #     FOLDER: .vuepress/dist # The folder the action should deploy.
 
-      - name: GitHub Pages
-        # You may pin to the exact commit or the version.
-        # uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      # https://github.com/marketplace/actions/github-pages-deploy
+      - name: Deploy the static file to GitHub Page
+        uses: appleboy/gh-pages-action@v0.0.2
         with:
-          # Git domain (default github.com)
-          # domain: # optional, default is github.com
-          # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
-          repo: /aierdever/aierdever.github.io.git
-          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
-          # Git branch where assets will be deployed
-          target_branch: page
-          # Build directory to deploy
-          build_dir: .vuepress/dist
-          # Whether to treat build_dir as an absolute path
-          # absolute_build_dir: # optional, default is false
-          # If enabled, the content of symbolic links will be copied
-          # follow_symlinks: # optional, default is false
-          # The committer name and email address
-          committer: aierdever
-          # The author name and email address
-          author: aierdever
+          remote_url: https://github.com/appleboy/gh-pages-action.git   #git remote url
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          upstream_name: master  #git upstream to target, default is origin
+          target_branch: page  #git branch to target
+          pages_directory: .vuepress/dist   #directory of content to publish, default is docs
+          # target_directory:    #directory of content to sync
+          # commit_author: aierdever   #git author name, default is GitHub Action
