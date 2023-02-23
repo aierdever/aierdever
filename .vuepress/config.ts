@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-import series from "./series";
+import series from "./sidebar";
 import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
@@ -21,7 +21,7 @@ export default defineUserConfig({
     authorAvatar: "/logo.png",
     docsRepo: "https://github.com/aierdever/aierdever.github.io",
     docsBranch: "master",
-    docsDir: "example",
+    docsDir: "",
     lastUpdatedText: "",
     // series 为原 sidebar
     series,
@@ -38,10 +38,10 @@ export default defineUserConfig({
       },
       { text: "PC端框架手册", link: "/docs/pcwork/index.html",
       children: [
-        { text: "指南", link: "/docs/pcwork/index.html" },
-        { text: "样式及图标", link: "/docs/pcwork/css/index.html" },
-        { text: "数据表格", link: "/docs/pcwork/datagrid/index.html" },
-        { text: "表单", link: "/docs/pcwork/form/index.html" },
+        { text: "指南", link: "/docs/pcwork/base/" },
+        { text: "样式及图标", link: "/docs/pcwork/css/1.grid.html" },
+        { text: "数据表格", link: "/docs/pcwork/datagrid/1.newgrid.html" },
+        { text: "表单", link: "/docs/pcwork/form/1.rules.html" },
         { text: "弹窗", link: "/docs/pcwork/pop/index.html" },
         { text: "其他", link: "/docs/pcwork/other/index.html" },
       ],

@@ -7,7 +7,7 @@ modules:
   - Footer
 banner:
   heroText: 石火之间
-  tagline: 岁月不回首，峰峦漫月明...
+  tagline: 峰峦漫明月，岁月不回头...
   # heroImage: 'logo.png'
   bgImage: '/homebanner.jpg'
   bgImageStyle:
