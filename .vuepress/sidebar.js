@@ -29,6 +29,13 @@ export default {
     "6.combogrid",
     "7.combotree"
   ],
+  "/docs/pcwork/pop": [
+    "common",
+    "iframePop",
+    "popForm",
+    "popTemForm",
+    "tabWindow"
+  ],
   "/docs/souni/components": [
     "index.html",
     "btn",

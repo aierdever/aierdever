@@ -14,9 +14,10 @@ comments: true
 可以帮助我们在任何地方，通过交互弹出一个内嵌页面的窗口，
 除自定义参数外，其他参数可以参考 [layer.open](http://www.layui.com/doc/modules/layer.html)。
 
-除了 `layer` 的 
+除了 `layer` 的 `iframe` 模式本身，还扩展了功能：
 
-- 
+- 父子交互传递数据;
+-  `iframePop` 子页面为表单，提交时，快捷刷新或执行 勾子事件 `sureback`；
 
 ::::
 
@@ -55,3 +56,45 @@ $pop.closePop({refreshGrid:true});
 ```
 
 ## $pop.closePop
+
+`$pop.closePop()`是关闭弹窗的通用关闭方法，日常我们主要用来关闭`iframePop` 。
+
+**所有参数：**
+
+```js
+$pop.closePop({
+    popIndex : null, //指定pop的index，可以关闭当前页面普通的弹窗 (普通弹窗)
+    callback : function () {}, //关闭时执行时间 (普通弹窗 / iframePop弹窗)
+    sendData : null, //往父页面传递参数 (iframePop弹窗)
+    success : false, //告诉父页面是否成功，会触发父页面刷新grid和 sureback勾子事件 (iframePop弹窗)
+    refreshGrid : false,// 同 success 
+    refresh : false, // 同 success 
+    time : false //延迟关闭时间 (iframePop弹窗)
+})
+```
+
+### 关闭当前页面弹窗
+
+```js
+var pop = $pop.open({
+  ...
+});
+//关闭当前页弹窗
+$pop.closePop({popIndex:pop});
+$pop.close(pop);
+layer.closeAll();
+```
+
+### iframePop 在子页面里关闭弹窗
+
+```js
+//父页面
+$pop.iframePop({
+  ...
+});
+
+//子页面 取消事件
+$pop.closePop();
+//子页面 提交事件
+$pop.closePop({refreshGrid:true});
+```
