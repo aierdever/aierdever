@@ -36,7 +36,7 @@ jobs:
           remote_url: https://github.com/aierdever/aierdever.github.io.git  #git remote url
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          upstream_name: master  #git upstream to target, default is origin
+          # upstream_name: master  #git upstream to target, default is origin
           target_branch: page  #git branch to target
           pages_directory: .vuepress/dist   #directory of content to publish, default is docs
           # target_directory:    #directory of content to sync
