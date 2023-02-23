@@ -21,7 +21,7 @@ jobs:
         run: |
           npm install
           npm run build
-          
+
       # - name: Deploy 
       #   uses: JamesIves/github-pages-deploy-action@releases/v3
       #   with:
@@ -35,9 +35,10 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           # Git domain (default github.com)
-          domain: # optional, default is github.com
+          # domain: # optional, default is github.com
           # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
           repo: /aierdever/aierdever.github.io.git
+          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
           # Git branch where assets will be deployed
           target_branch: page
           # Build directory to deploy
