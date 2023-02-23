@@ -33,7 +33,7 @@ jobs:
       - name: Deploy the static file to GitHub Page
         uses: appleboy/gh-pages-action@v0.0.2
         with:
-          remote_url: https://github.com/appleboy/gh-pages-action.git   #git remote url
+          remote_url: https://github.com/aierdever/aierdever.github.io.git  #git remote url
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           upstream_name: master  #git upstream to target, default is origin
