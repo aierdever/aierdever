@@ -1,5 +1,6 @@
 ---
 title: "so-checkbox"
+author: bujichong
 subSidebar: true
 categories:
 - components

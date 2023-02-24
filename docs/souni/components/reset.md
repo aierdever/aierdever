@@ -1,5 +1,6 @@
 ---
 title: "reset"
+author: bujichong
 subSidebar: true
 categories:
 - components

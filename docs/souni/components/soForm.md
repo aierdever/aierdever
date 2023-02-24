@@ -1,5 +1,6 @@
 ---
 title: "so-form"
+author: bujichong
 subSidebar: true
 categories:
 - components

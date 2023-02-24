@@ -1,5 +1,6 @@
 ---
 title: "item"
+author: bujichong
 subSidebar: true
 categories:
 - components

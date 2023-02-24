@@ -1,5 +1,6 @@
 ---
 title: "so-search"
+author: bujichong
 subSidebar: true
 categories:
 - components

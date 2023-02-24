@@ -1,5 +1,6 @@
 ---
 title: "row"
+author: bujichong
 subSidebar: true
 categories:
 - components

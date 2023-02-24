@@ -1,5 +1,6 @@
 ---
 title: "so-switch"
+author: bujichong
 subSidebar: true
 categories:
 - components

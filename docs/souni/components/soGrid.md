@@ -1,5 +1,6 @@
 ---
 title: "so-grid"
+author: bujichong
 subSidebar: true
 categories:
 - components

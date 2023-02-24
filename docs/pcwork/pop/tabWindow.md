@@ -1,5 +1,6 @@
 ---
 title: "newTabWindow 和 closeTabWindow"
+author: bujichong
 subSidebar: true
 categories:
 - pc框架

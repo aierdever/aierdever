@@ -1,5 +1,6 @@
 ---
 title: "so-select"
+author: bujichong
 subSidebar: true
 categories:
 - components

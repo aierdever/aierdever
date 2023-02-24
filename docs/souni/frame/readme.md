@@ -1,5 +1,6 @@
 ---
 title: "起步"
+author: bujichong
 subSidebar: true
 categories:
 - 指南

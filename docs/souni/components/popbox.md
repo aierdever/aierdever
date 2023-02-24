@@ -1,5 +1,6 @@
 ---
 title: "popbox"
+author: bujichong
 subSidebar: true
 categories:
 - 组件

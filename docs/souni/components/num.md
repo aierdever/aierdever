@@ -1,5 +1,6 @@
 ---
 title: "num"
+author: bujichong
 subSidebar: true
 categories:
 - components

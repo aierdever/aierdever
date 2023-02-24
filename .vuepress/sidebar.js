@@ -29,6 +29,11 @@ export default {
     "6.combogrid",
     "7.combotree"
   ],
+  "/docs/pcwork/other": [
+    "1.uploader",
+    "2.editor",
+    "3.charts"
+  ],
   "/docs/pcwork/pop": [
     "common",
     "iframePop",

@@ -1,5 +1,6 @@
 ---
 title: "$pop常用弹窗"
+author: bujichong
 subSidebar: true
 categories:
 - pc框架

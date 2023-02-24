@@ -1,5 +1,6 @@
 ---
 title: "so-sheet"
+author: bujichong
 subSidebar: true
 categories:
 - components

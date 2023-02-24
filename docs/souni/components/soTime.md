@@ -1,5 +1,6 @@
 ---
 title: "so-time"
+author: bujichong
 subSidebar: true
 categories:
 - components

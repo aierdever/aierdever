@@ -1,5 +1,6 @@
 ---
 title: "txt"
+author: bujichong
 subSidebar: true
 categories:
 - components

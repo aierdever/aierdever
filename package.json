@@ -9,6 +9,7 @@
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
     "build": "vuepress build .",
+    "go": "node ./.vuepress/render.js && vuepress build .",
     "sidebar": "node ./.vuepress/render.js"
   },
   "dependencies": {
