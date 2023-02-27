@@ -1,17 +1,33 @@
 import { defineUserConfig } from "vuepress";
+// import { getDirname, path } from '@vuepress/utils'
 import series from "./sidebar";
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom';
+import { prismjsPlugin } from '@vuepress/plugin-prismjs';
 import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+// const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   title: "爱尔前端文档博客",
   description: "爱尔前端Api手册、技术博客",
+  head: [["link",{rel: 'icon', href: '/images/logo.png'}]],
+  plugins: [
+    mediumZoomPlugin({
+      // 配置项
+    }),
+    prismjsPlugin({
+      // 配置项
+    }),
+  ],
   port: 1208,
     locales: {
     "/": {
       lang: "zh-CN",
     },
   },
+    // alias: {
+  //   '@alias': path.resolve(__dirname, './path/to/some/dir'),
+  // },
   theme: recoTheme({
     password: ['cbe2a69f9c79e5c68448734d1a580dae','1129cdf905e4e68fe0be1022d143ee05'],
     autoSetSeries: true,
@@ -23,6 +39,7 @@ export default defineUserConfig({
     docsBranch: "master",
     docsDir: "",
     lastUpdatedText: "",
+    primaryColor: '#e95600',
     // series 为原 sidebar
     series,
     navbar: [
@@ -46,14 +63,14 @@ export default defineUserConfig({
           { text: "Js", link: "/docs/souni/js/index.html" },
         ],
       },
-      {
-        text: "文档",
-        children: [
-          { text: "PC端开发框架手册", link: "/docs/theme-reco/theme" },
-          { text: "蓝芯浏览器操作手册", link: "/blogs/other/guide" },
-          { text: "SoUni开发手册", link: "/blogs/other/guide" },
-        ],
-      },
+      // {
+      //   text: "文档",
+      //   children: [
+      //     { text: "PC端开发框架手册", link: "/docs/theme-reco/theme" },
+      //     { text: "蓝芯浏览器操作手册", link: "/blogs/other/guide" },
+      //     { text: "SoUni开发手册", link: "/blogs/other/guide" },
+      //   ],
+      // },
     ],
     // bulletin: {
     //   body: [
