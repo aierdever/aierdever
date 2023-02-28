@@ -1,698 +1,698 @@
 export default {
-  "/docs/pcwork/base": [
-    {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
-      "children": [
-        "/docs/pcwork/index/index.html"
-      ]
-    },
-    {
-      "text": "other",
-      "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
-      ]
-    },
-    {
-      "text": "pop",
-      "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
-      ]
-    }
-  ],
-  "/docs/pcwork/css": [
-    {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
-      "children": [
-        "/docs/pcwork/index/index.html"
-      ]
-    },
-    {
-      "text": "other",
-      "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
-      ]
-    },
-    {
-      "text": "pop",
-      "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
-      ]
-    }
-  ],
-  "/docs/pcwork/datagrid": [
-    {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
-      "children": [
-        "/docs/pcwork/index/index.html"
-      ]
-    },
-    {
-      "text": "other",
-      "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
-      ]
-    },
-    {
-      "text": "pop",
-      "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
-      ]
-    }
-  ],
-  "/docs/pcwork/form": [
-    {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
-      "children": [
-        "/docs/pcwork/index/index.html"
-      ]
-    },
-    {
-      "text": "other",
-      "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
-      ]
-    },
-    {
-      "text": "pop",
-      "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
-      ]
-    }
-  ],
   "/docs/pcwork/index": [
     {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
+      "text": "首页",
       "children": [
         "/docs/pcwork/index/index.html"
       ]
     },
     {
-      "text": "other",
+      "text": "1.base",
       "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
       ]
     },
     {
-      "text": "pop",
+      "text": "2.css",
       "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
+      ]
+    },
+    {
+      "text": "3.datagrid",
+      "children": [
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
       ]
     }
   ],
-  "/docs/pcwork/other": [
+  "/docs/pcwork/1.base": [
     {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
+      "text": "首页",
       "children": [
         "/docs/pcwork/index/index.html"
       ]
     },
     {
-      "text": "other",
+      "text": "1.base",
       "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
       ]
     },
     {
-      "text": "pop",
+      "text": "2.css",
       "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
+      ]
+    },
+    {
+      "text": "3.datagrid",
+      "children": [
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
       ]
     }
   ],
-  "/docs/pcwork/pop": [
+  "/docs/pcwork/2.css": [
     {
-      "text": "base",
-      "children": [
-        "/docs/pcwork/base/1.files",
-        "/docs/pcwork/base/2.includeJs",
-        "/docs/pcwork/base/3.contInit",
-        "/docs/pcwork/base/4.store",
-        "/docs/pcwork/base/5.ajax",
-        "/docs/pcwork/base/6.data",
-        "/docs/pcwork/base/7.fmtDate",
-        "/docs/pcwork/base/8.someTools"
-      ]
-    },
-    {
-      "text": "css",
-      "children": [
-        "/docs/pcwork/css/1.grid",
-        "/docs/pcwork/css/2.common",
-        "/docs/pcwork/css/3.icons"
-      ]
-    },
-    {
-      "text": "datagrid",
-      "children": [
-        "/docs/pcwork/datagrid/1.newGrid",
-        "/docs/pcwork/datagrid/2.gridMethod",
-        "/docs/pcwork/datagrid/3.gridEdit"
-      ]
-    },
-    {
-      "text": "form",
-      "children": [
-        "/docs/pcwork/form/1.rules",
-        "/docs/pcwork/form/2.sovals",
-        "/docs/pcwork/form/3.easyvals",
-        "/docs/pcwork/form/4.dater",
-        "/docs/pcwork/form/5.combobox",
-        "/docs/pcwork/form/6.combogrid",
-        "/docs/pcwork/form/7.combotree"
-      ]
-    },
-    {
-      "text": "index",
+      "text": "首页",
       "children": [
         "/docs/pcwork/index/index.html"
       ]
     },
     {
-      "text": "other",
+      "text": "1.base",
       "children": [
-        "/docs/pcwork/other/1.uploader",
-        "/docs/pcwork/other/2.editor",
-        "/docs/pcwork/other/3.charts"
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
       ]
     },
     {
-      "text": "pop",
+      "text": "2.css",
       "children": [
-        "/docs/pcwork/pop/common",
-        "/docs/pcwork/pop/iframePop",
-        "/docs/pcwork/pop/popForm",
-        "/docs/pcwork/pop/popTemForm",
-        "/docs/pcwork/pop/tabWindow"
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
+      ]
+    },
+    {
+      "text": "3.datagrid",
+      "children": [
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
       ]
     }
   ],
-  "/docs/souni/components": [
+  "/docs/pcwork/3.datagrid": [
     {
-      "text": "components",
+      "text": "首页",
       "children": [
-        "/docs/souni/components/btn",
-        "/docs/souni/components/item",
-        "/docs/souni/components/num",
-        "/docs/souni/components/pop",
-        "/docs/souni/components/popbox",
-        "/docs/souni/components/index.html",
-        "/docs/souni/components/reset",
-        "/docs/souni/components/row",
-        "/docs/souni/components/soCalendar",
-        "/docs/souni/components/soCheckbox",
-        "/docs/souni/components/soForm",
-        "/docs/souni/components/soGrid",
-        "/docs/souni/components/soRadio",
-        "/docs/souni/components/soRegion",
-        "/docs/souni/components/soSearch",
-        "/docs/souni/components/soSelect",
-        "/docs/souni/components/soSheet",
-        "/docs/souni/components/soSwitch",
-        "/docs/souni/components/soTime",
-        "/docs/souni/components/submit",
-        "/docs/souni/components/toast",
-        "/docs/souni/components/txt"
+        "/docs/pcwork/index/index.html"
       ]
     },
     {
-      "text": "frame",
+      "text": "1.base",
       "children": [
-        "/docs/souni/frame/01.structure",
-        "/docs/souni/frame/02.style",
-        "/docs/souni/frame/03.router",
-        "/docs/souni/frame/04.store",
-        "/docs/souni/frame/05.api",
-        "/docs/souni/frame/index.html"
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
       ]
     },
     {
-      "text": "index",
+      "text": "2.css",
       "children": [
-        "/docs/souni/index/index.html"
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
       ]
     },
     {
-      "text": "js",
+      "text": "3.datagrid",
       "children": [
-        "/docs/souni/js/01.tools",
-        "/docs/souni/js/02.ajax",
-        "/docs/souni/js/03.pop",
-        "/docs/souni/js/04.rules",
-        "/docs/souni/js/05.sys",
-        "/docs/souni/js/index.html"
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
       ]
     }
   ],
-  "/docs/souni/frame": [
+  "/docs/pcwork/4.form": [
     {
-      "text": "components",
+      "text": "首页",
       "children": [
-        "/docs/souni/components/btn",
-        "/docs/souni/components/item",
-        "/docs/souni/components/num",
-        "/docs/souni/components/pop",
-        "/docs/souni/components/popbox",
-        "/docs/souni/components/index.html",
-        "/docs/souni/components/reset",
-        "/docs/souni/components/row",
-        "/docs/souni/components/soCalendar",
-        "/docs/souni/components/soCheckbox",
-        "/docs/souni/components/soForm",
-        "/docs/souni/components/soGrid",
-        "/docs/souni/components/soRadio",
-        "/docs/souni/components/soRegion",
-        "/docs/souni/components/soSearch",
-        "/docs/souni/components/soSelect",
-        "/docs/souni/components/soSheet",
-        "/docs/souni/components/soSwitch",
-        "/docs/souni/components/soTime",
-        "/docs/souni/components/submit",
-        "/docs/souni/components/toast",
-        "/docs/souni/components/txt"
+        "/docs/pcwork/index/index.html"
       ]
     },
     {
-      "text": "frame",
+      "text": "1.base",
       "children": [
-        "/docs/souni/frame/01.structure",
-        "/docs/souni/frame/02.style",
-        "/docs/souni/frame/03.router",
-        "/docs/souni/frame/04.store",
-        "/docs/souni/frame/05.api",
-        "/docs/souni/frame/index.html"
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
       ]
     },
     {
-      "text": "index",
+      "text": "2.css",
       "children": [
-        "/docs/souni/index/index.html"
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
       ]
     },
     {
-      "text": "js",
+      "text": "3.datagrid",
       "children": [
-        "/docs/souni/js/01.tools",
-        "/docs/souni/js/02.ajax",
-        "/docs/souni/js/03.pop",
-        "/docs/souni/js/04.rules",
-        "/docs/souni/js/05.sys",
-        "/docs/souni/js/index.html"
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
+      ]
+    }
+  ],
+  "/docs/pcwork/5.pop": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/pcwork/index/index.html"
+      ]
+    },
+    {
+      "text": "1.base",
+      "children": [
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
+      ]
+    },
+    {
+      "text": "2.css",
+      "children": [
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
+      ]
+    },
+    {
+      "text": "3.datagrid",
+      "children": [
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
+      ]
+    }
+  ],
+  "/docs/pcwork/6.other": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/pcwork/index/index.html"
+      ]
+    },
+    {
+      "text": "1.base",
+      "children": [
+        "/docs/pcwork/1.base/1.files",
+        "/docs/pcwork/1.base/2.includeJs",
+        "/docs/pcwork/1.base/3.contInit",
+        "/docs/pcwork/1.base/4.store",
+        "/docs/pcwork/1.base/5.ajax",
+        "/docs/pcwork/1.base/6.data",
+        "/docs/pcwork/1.base/7.fmtDate",
+        "/docs/pcwork/1.base/8.someTools"
+      ]
+    },
+    {
+      "text": "2.css",
+      "children": [
+        "/docs/pcwork/2.css/1.grid",
+        "/docs/pcwork/2.css/2.common",
+        "/docs/pcwork/2.css/3.icons"
+      ]
+    },
+    {
+      "text": "3.datagrid",
+      "children": [
+        "/docs/pcwork/3.datagrid/1.newGrid",
+        "/docs/pcwork/3.datagrid/2.gridMethod",
+        "/docs/pcwork/3.datagrid/3.gridEdit"
+      ]
+    },
+    {
+      "text": "4.form",
+      "children": [
+        "/docs/pcwork/4.form/1.rules",
+        "/docs/pcwork/4.form/2.sovals",
+        "/docs/pcwork/4.form/3.easyvals",
+        "/docs/pcwork/4.form/4.dater",
+        "/docs/pcwork/4.form/5.combobox",
+        "/docs/pcwork/4.form/6.combogrid",
+        "/docs/pcwork/4.form/7.combotree"
+      ]
+    },
+    {
+      "text": "5.pop",
+      "children": [
+        "/docs/pcwork/5.pop/common",
+        "/docs/pcwork/5.pop/iframePop",
+        "/docs/pcwork/5.pop/popForm",
+        "/docs/pcwork/5.pop/popTemForm",
+        "/docs/pcwork/5.pop/tabWindow"
+      ]
+    },
+    {
+      "text": "6.other",
+      "children": [
+        "/docs/pcwork/6.other/1.uploader",
+        "/docs/pcwork/6.other/2.editor",
+        "/docs/pcwork/6.other/3.charts"
       ]
     }
   ],
   "/docs/souni/index": [
     {
-      "text": "components",
-      "children": [
-        "/docs/souni/components/btn",
-        "/docs/souni/components/item",
-        "/docs/souni/components/num",
-        "/docs/souni/components/pop",
-        "/docs/souni/components/popbox",
-        "/docs/souni/components/index.html",
-        "/docs/souni/components/reset",
-        "/docs/souni/components/row",
-        "/docs/souni/components/soCalendar",
-        "/docs/souni/components/soCheckbox",
-        "/docs/souni/components/soForm",
-        "/docs/souni/components/soGrid",
-        "/docs/souni/components/soRadio",
-        "/docs/souni/components/soRegion",
-        "/docs/souni/components/soSearch",
-        "/docs/souni/components/soSelect",
-        "/docs/souni/components/soSheet",
-        "/docs/souni/components/soSwitch",
-        "/docs/souni/components/soTime",
-        "/docs/souni/components/submit",
-        "/docs/souni/components/toast",
-        "/docs/souni/components/txt"
-      ]
-    },
-    {
-      "text": "frame",
-      "children": [
-        "/docs/souni/frame/01.structure",
-        "/docs/souni/frame/02.style",
-        "/docs/souni/frame/03.router",
-        "/docs/souni/frame/04.store",
-        "/docs/souni/frame/05.api",
-        "/docs/souni/frame/index.html"
-      ]
-    },
-    {
-      "text": "index",
+      "text": "首页",
       "children": [
         "/docs/souni/index/index.html"
       ]
     },
     {
-      "text": "js",
+      "text": "1.base",
       "children": [
-        "/docs/souni/js/01.tools",
-        "/docs/souni/js/02.ajax",
-        "/docs/souni/js/03.pop",
-        "/docs/souni/js/04.rules",
-        "/docs/souni/js/05.sys",
-        "/docs/souni/js/index.html"
+        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/01.structure",
+        "/docs/souni/1.base/02.style",
+        "/docs/souni/1.base/03.router",
+        "/docs/souni/1.base/04.store",
+        "/docs/souni/1.base/05.api"
+      ]
+    },
+    {
+      "text": "2.components",
+      "children": [
+        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/btn",
+        "/docs/souni/2.components/item",
+        "/docs/souni/2.components/num",
+        "/docs/souni/2.components/pop",
+        "/docs/souni/2.components/popbox",
+        "/docs/souni/2.components/reset",
+        "/docs/souni/2.components/row",
+        "/docs/souni/2.components/soCalendar",
+        "/docs/souni/2.components/soCheckbox",
+        "/docs/souni/2.components/soForm",
+        "/docs/souni/2.components/soGrid",
+        "/docs/souni/2.components/soRadio",
+        "/docs/souni/2.components/soRegion",
+        "/docs/souni/2.components/soSearch",
+        "/docs/souni/2.components/soSelect",
+        "/docs/souni/2.components/soSheet",
+        "/docs/souni/2.components/soSwitch",
+        "/docs/souni/2.components/soTime",
+        "/docs/souni/2.components/submit",
+        "/docs/souni/2.components/toast",
+        "/docs/souni/2.components/txt"
+      ]
+    },
+    {
+      "text": "3.js",
+      "children": [
+        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/01.tools",
+        "/docs/souni/3.js/02.ajax",
+        "/docs/souni/3.js/03.pop",
+        "/docs/souni/3.js/04.rules",
+        "/docs/souni/3.js/05.sys"
       ]
     }
   ],
-  "/docs/souni/js": [
+  "/docs/souni/1.base": [
     {
-      "text": "components",
-      "children": [
-        "/docs/souni/components/btn",
-        "/docs/souni/components/item",
-        "/docs/souni/components/num",
-        "/docs/souni/components/pop",
-        "/docs/souni/components/popbox",
-        "/docs/souni/components/index.html",
-        "/docs/souni/components/reset",
-        "/docs/souni/components/row",
-        "/docs/souni/components/soCalendar",
-        "/docs/souni/components/soCheckbox",
-        "/docs/souni/components/soForm",
-        "/docs/souni/components/soGrid",
-        "/docs/souni/components/soRadio",
-        "/docs/souni/components/soRegion",
-        "/docs/souni/components/soSearch",
-        "/docs/souni/components/soSelect",
-        "/docs/souni/components/soSheet",
-        "/docs/souni/components/soSwitch",
-        "/docs/souni/components/soTime",
-        "/docs/souni/components/submit",
-        "/docs/souni/components/toast",
-        "/docs/souni/components/txt"
-      ]
-    },
-    {
-      "text": "frame",
-      "children": [
-        "/docs/souni/frame/01.structure",
-        "/docs/souni/frame/02.style",
-        "/docs/souni/frame/03.router",
-        "/docs/souni/frame/04.store",
-        "/docs/souni/frame/05.api",
-        "/docs/souni/frame/index.html"
-      ]
-    },
-    {
-      "text": "index",
+      "text": "首页",
       "children": [
         "/docs/souni/index/index.html"
       ]
     },
     {
-      "text": "js",
+      "text": "1.base",
       "children": [
-        "/docs/souni/js/01.tools",
-        "/docs/souni/js/02.ajax",
-        "/docs/souni/js/03.pop",
-        "/docs/souni/js/04.rules",
-        "/docs/souni/js/05.sys",
-        "/docs/souni/js/index.html"
+        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/01.structure",
+        "/docs/souni/1.base/02.style",
+        "/docs/souni/1.base/03.router",
+        "/docs/souni/1.base/04.store",
+        "/docs/souni/1.base/05.api"
+      ]
+    },
+    {
+      "text": "2.components",
+      "children": [
+        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/btn",
+        "/docs/souni/2.components/item",
+        "/docs/souni/2.components/num",
+        "/docs/souni/2.components/pop",
+        "/docs/souni/2.components/popbox",
+        "/docs/souni/2.components/reset",
+        "/docs/souni/2.components/row",
+        "/docs/souni/2.components/soCalendar",
+        "/docs/souni/2.components/soCheckbox",
+        "/docs/souni/2.components/soForm",
+        "/docs/souni/2.components/soGrid",
+        "/docs/souni/2.components/soRadio",
+        "/docs/souni/2.components/soRegion",
+        "/docs/souni/2.components/soSearch",
+        "/docs/souni/2.components/soSelect",
+        "/docs/souni/2.components/soSheet",
+        "/docs/souni/2.components/soSwitch",
+        "/docs/souni/2.components/soTime",
+        "/docs/souni/2.components/submit",
+        "/docs/souni/2.components/toast",
+        "/docs/souni/2.components/txt"
+      ]
+    },
+    {
+      "text": "3.js",
+      "children": [
+        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/01.tools",
+        "/docs/souni/3.js/02.ajax",
+        "/docs/souni/3.js/03.pop",
+        "/docs/souni/3.js/04.rules",
+        "/docs/souni/3.js/05.sys"
+      ]
+    }
+  ],
+  "/docs/souni/2.components": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/souni/index/index.html"
+      ]
+    },
+    {
+      "text": "1.base",
+      "children": [
+        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/01.structure",
+        "/docs/souni/1.base/02.style",
+        "/docs/souni/1.base/03.router",
+        "/docs/souni/1.base/04.store",
+        "/docs/souni/1.base/05.api"
+      ]
+    },
+    {
+      "text": "2.components",
+      "children": [
+        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/btn",
+        "/docs/souni/2.components/item",
+        "/docs/souni/2.components/num",
+        "/docs/souni/2.components/pop",
+        "/docs/souni/2.components/popbox",
+        "/docs/souni/2.components/reset",
+        "/docs/souni/2.components/row",
+        "/docs/souni/2.components/soCalendar",
+        "/docs/souni/2.components/soCheckbox",
+        "/docs/souni/2.components/soForm",
+        "/docs/souni/2.components/soGrid",
+        "/docs/souni/2.components/soRadio",
+        "/docs/souni/2.components/soRegion",
+        "/docs/souni/2.components/soSearch",
+        "/docs/souni/2.components/soSelect",
+        "/docs/souni/2.components/soSheet",
+        "/docs/souni/2.components/soSwitch",
+        "/docs/souni/2.components/soTime",
+        "/docs/souni/2.components/submit",
+        "/docs/souni/2.components/toast",
+        "/docs/souni/2.components/txt"
+      ]
+    },
+    {
+      "text": "3.js",
+      "children": [
+        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/01.tools",
+        "/docs/souni/3.js/02.ajax",
+        "/docs/souni/3.js/03.pop",
+        "/docs/souni/3.js/04.rules",
+        "/docs/souni/3.js/05.sys"
+      ]
+    }
+  ],
+  "/docs/souni/3.js": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/souni/index/index.html"
+      ]
+    },
+    {
+      "text": "1.base",
+      "children": [
+        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/01.structure",
+        "/docs/souni/1.base/02.style",
+        "/docs/souni/1.base/03.router",
+        "/docs/souni/1.base/04.store",
+        "/docs/souni/1.base/05.api"
+      ]
+    },
+    {
+      "text": "2.components",
+      "children": [
+        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/btn",
+        "/docs/souni/2.components/item",
+        "/docs/souni/2.components/num",
+        "/docs/souni/2.components/pop",
+        "/docs/souni/2.components/popbox",
+        "/docs/souni/2.components/reset",
+        "/docs/souni/2.components/row",
+        "/docs/souni/2.components/soCalendar",
+        "/docs/souni/2.components/soCheckbox",
+        "/docs/souni/2.components/soForm",
+        "/docs/souni/2.components/soGrid",
+        "/docs/souni/2.components/soRadio",
+        "/docs/souni/2.components/soRegion",
+        "/docs/souni/2.components/soSearch",
+        "/docs/souni/2.components/soSelect",
+        "/docs/souni/2.components/soSheet",
+        "/docs/souni/2.components/soSwitch",
+        "/docs/souni/2.components/soTime",
+        "/docs/souni/2.components/submit",
+        "/docs/souni/2.components/toast",
+        "/docs/souni/2.components/txt"
+      ]
+    },
+    {
+      "text": "3.js",
+      "children": [
+        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/01.tools",
+        "/docs/souni/3.js/02.ajax",
+        "/docs/souni/3.js/03.pop",
+        "/docs/souni/3.js/04.rules",
+        "/docs/souni/3.js/05.sys"
       ]
     }
   ]

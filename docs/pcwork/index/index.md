@@ -12,22 +12,22 @@ comments: true
 > 页面兼容性： **兼容ie8+及所有现代浏览器**
 :::: nav-group 文档导航
 ::: nav icon-earth
-[框架基础](../base/1.files.md)
+[框架基础](../1.base/1.files.md)
 :::
 ::: nav icon-crown
-[样式及图标](../css/1.grid.md)
+[样式及图标](../2.css/1.grid.md)
 :::
 ::: nav icon-sever
-[数据表格](../datagrid/1.newGrid.md)
+[数据表格](../3.datagrid/1.newGrid.md)
 :::
 ::: nav icon-detail
-[表单](../form/1.rules.md)
+[表单](../4.form/1.rules.md)
 :::
 ::: nav icon-block
-[弹窗](../pop/common.md)
+[弹窗](../5.pop/common.md)
 :::
 ::: nav icon-appstoreadd
-[其他](../other/1.uploader.md)
+[其他](../6.other/1.uploader.md)
 :::
 ::::
 

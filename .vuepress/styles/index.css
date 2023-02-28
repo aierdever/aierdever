@@ -11,6 +11,13 @@
 }
 /* 隐藏编辑链接 */
 .edit-link{display: none;}
+
+.series-container .series-group:not(:first-of-type) h5.series-heading{margin:0 0 0.8rem!important;padding-top:2rem;}
+.series-container .series-group:not(:first-of-type) h5.series-heading::before{bottom:2.5rem!important;}
+.series-container a.series-item{line-height: 1.5rem!important;}
+.series-container a.series-item.router-link-active{color:rgb(233 86 0 / var(--tw-text-opacity));background-color: #f7eae4;padding-left:1.2rem!important;}
+.series-container a.series-item::before{left: 0.5rem !important;}
+
 .nav-group-container{
     display: flex;
     position: relative;

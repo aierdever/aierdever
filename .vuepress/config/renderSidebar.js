@@ -4,37 +4,6 @@ let path = require('path');
 const basePath = path.resolve(__dirname, '../../');
 const sourcePath = path.resolve(__dirname, '../../docs/')
 const barFile = path.resolve(__dirname,'./sidebar.js');
-/*
-  "/docs/pcwork/css": [
-    "/docs/pcwork/css/1.grid",
-    "/docs/pcwork/css/2.common",
-    "/docs/pcwork/css/3.icons"
-  ],
-  "/docs/pcwork/datagrid": [
-    "/docs/pcwork/datagrid/1.newGrid",
-    "/docs/pcwork/datagrid/2.gridMethod",
-    "/docs/pcwork/datagrid/3.gridEdit"
-  ],
-
-
- "/docs/pcwork/css": {
-    text: 'css',
-    children: [
-    "/docs/pcwork/css/1.grid",
-    "/docs/pcwork/css/2.common",
-    "/docs/pcwork/css/3.icons"
-    ]
- },
- "/docs/pcwork/datagrid":{
-    text: 'datagrid',
-    children: [
-    "/docs/pcwork/datagrid/1.newGrid",
-    "/docs/pcwork/datagrid/2.gridMethod",
-    "/docs/pcwork/datagrid/3.gridEdit"
-    ]
- }
-*/ 
-
 
 let renderFn = {
     booksList: ['/docs/pcwork','/docs/souni'],
@@ -61,20 +30,26 @@ let renderFn = {
         var me = this;
         let kk = {}; //存放同组的url keys
         let newList = {}; //新的 {text,children} 格式的导航数据
-        let kv = {};
-        let kw = {};
+        let kv = {}; //每项最终导航
+        let kw = {}; //最终导航列表
         Object.keys(me.filesList).forEach(item => {
+            // console.log(item);
             Object.keys(me.barData).forEach( k => {
                 if(!kk[k]){kk[k] = []}
                 if(item.indexOf(k)>=0){
-                    kk[k].push(item);
+                    if(item.match(/.*?index/)){
+                        kk[k].unshift(item); //index  放在最前
+                    }else{
+                        kk[k].push(item);
+                    }
+                    
                 }
             });
             const itemSplit = item.lastIndexOf('/');
             const itemN = item.slice(itemSplit+1);
             newList[item] = {
                 // path: item,
-                text: itemN,
+                text: itemN == 'index'?'首页':itemN,
                 children: me.filesList[item]
             }
         });
@@ -85,14 +60,15 @@ let renderFn = {
                 return newList[kitem];
             });
         });
+        // console.log(kv);
         Object.keys(kk).forEach(k => {
             let item = kk[k];
             item.forEach(kitem => {
                 kw[kitem] = kv[k];
             }) 
         });
+        console.log(kw);
         me.newFilesList = kw;
-        // console.log(kw);
     },
     renderSidebar(){
         var me = this;
@@ -124,11 +100,11 @@ let renderFn = {
             // console.log(filePath, '==', fileItem);
 
             if(filesList[filePath]){
-                // if(fileName == 'index.html'){
-                //     filesList[filePath].unshift(fileName);
-                // }else{
+                if(fileName == 'index.html'){ //index  放在最前
+                    filesList[filePath].unshift(fileItem);
+                }else{
                     filesList[filePath].push(fileItem);
-                // }
+                }
             }else{
                 filesList[filePath] = [fileItem];
             }

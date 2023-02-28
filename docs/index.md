@@ -8,22 +8,22 @@ comments: true
 [首页](./pcwork/index/)
 :::
 ::: nav icon-earth
-[框架基础](./pcwork/base/1.files.md)
+[框架基础](./pcwork/1.base/1.files.md)
 :::
 ::: nav icon-crown
-[样式及图标](./pcwork/css/1.grid.md)
+[样式及图标](./pcwork/2.css/1.grid.md)
 :::
 ::: nav icon-sever
-[数据表格](./pcwork/datagrid/1.newGrid.md)
+[数据表格](./pcwork/3.datagrid/1.newGrid.md)
 :::
 ::: nav icon-detail
-[表单](./pcwork/form/1.rules.md)
+[表单](./pcwork/4.form/1.rules.md)
 :::
 ::: nav icon-block
-[弹窗](./pcwork/pop/common.md)
+[弹窗](./pcwork/5.pop/common.md)
 :::
 ::: nav icon-appstoreadd
-[其他](./pcwork/other/1.uploader.md)
+[其他](./pcwork/6.other/1.uploader.md)
 :::
 ::::
 
@@ -32,12 +32,12 @@ comments: true
 [首页](./souni/index/)
 :::
 ::: nav icon-cluster
-[快速上手](./souni/frame/)
+[快速上手](./souni/1.base/)
 :::
 ::: nav icon-container
-[组件](./souni/components/)
+[组件](./souni/2.components/)
 :::
 ::: nav icon-calculator
-[Js](./souni/js/)
+[Js](./souni/3.js/)
 :::
 ::::
