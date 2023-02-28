@@ -35,6 +35,7 @@ export default defineUserConfig({
     docsDir: "",
     lastUpdatedText: "",
     primaryColor: "#e95600",
+    // primaryColor: "#0085e3",
     // series 为原 sidebar
     series,
     navbar: [
@@ -49,21 +50,7 @@ export default defineUserConfig({
       {
         text: "soUni手册",
         link: "/docs/souni/index/",
-        // children: [
-        //   { text: "首页", link: "/docs/souni/" },
-        //   { text: "快速上手", link: "/docs/souni/frame/index.html" },
-        //   { text: "组件", link: "/docs/souni/components/index.html" },
-        //   { text: "Js", link: "/docs/souni/js/index.html" },
-        // ],
       },
-      // {
-      //   text: "文档",
-      //   children: [
-      //     { text: "PC端开发框架手册", link: "/docs/theme-reco/theme" },
-      //     { text: "蓝芯浏览器操作手册", link: "/blogs/other/guide" },
-      //     { text: "SoUni开发手册", link: "/blogs/other/guide" },
-      //   ],
-      // },
     ],
     // bulletin: {
     //   body: [
