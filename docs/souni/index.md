@@ -1,3 +1,22 @@
-- [指南](./frame/readme.md)
-- [组件](./components/readme.md)
-- [js](./js/readme.md)
+---
+title: "soUni手册"
+author: bujichong
+subSidebar: true
+categories:
+- 指南
+tags:
+- 指南
+comments: true
+---
+> **soUni**  是集成在uni环境里基于最流行的uni框架 [uview](https://www.uviewui.com/) 二次包装的一套UI框架，主要处理了环境的配置、公共工具类、路由配置、页面组件等等。
+:::: nav-group 手册导航
+::: nav icon-cluster
+[快速上手](./frame/)
+:::
+::: nav icon-container
+[组件](./components/)
+:::
+::: nav icon-calculator
+[Js](./js/)
+:::
+::::

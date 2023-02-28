@@ -1,4 +1,6 @@
 
+/* @import '//at.alicdn.com/t/font_2863733_p9x15qvaky.css'; */
+@import '/iconfont/iconfont.css';
 .banner-wrapper .banner-brand__content h1{color:#ffb100;}
 .banner-wrapper .banner-brand__content p{color:#dcd9fc;}
 @media (min-width: 768px){
@@ -7,3 +9,27 @@
     .banner-wrapper .banner-brand__content h1{color:#ffb100;margin-top: 6rem;padding-left:360px;font-size:2rem;}
     .banner-wrapper .banner-brand__content p{color:#bdf7cc;padding-left:500px;}
 }
+/* 隐藏编辑链接 */
+.edit-link{display: none;}
+.nav-group-container{
+    display: flex;
+    position: relative;
+    padding-top:3em;
+    flex-wrap: wrap;
+    margin:2em 0;
+}
+.nav-group-container *{padding:0;margin:0;}
+.nav-group-title{position: absolute;top:0;left:0.5em;font-size: 1.2em;}
+.nav-container{
+width:140px;text-align: center;
+background-color: #fdf2d6;
+margin:0 0.7em 0.7em 0;
+padding:1em 0 2.5em;border-radius:0.5em;
+position: relative;
+font-size: 14px;
+transition: all 1 ease-in-out;
+}
+.nav-container:hover{opacity: 0.7;transform: scale(1.05);box-shadow:0 0 10px #b9b9b8;z-index: 3;}
+.nav-container a{position: absolute;top:0;left:0;right:0;bottom:0;padding:4.8em 0.8em 0 0.8em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.nav-container .nav-title{padding:1em 0 0.5em;}
+.nav-container .iconfont{font-size: 2em;font-weight: normal;color:#854919;}

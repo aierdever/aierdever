@@ -1,8 +1,8 @@
 let fs = require('fs');
 let path = require('path');
 
-const basePath = path.resolve(__dirname, '../');
-const sourcePath = path.resolve(__dirname, '../docs/')
+const basePath = path.resolve(__dirname, '../../');
+const sourcePath = path.resolve(__dirname, '../../docs/')
 const barFile = path.resolve(__dirname,'./sidebar.js');
 
 let renderFn = {
@@ -12,6 +12,11 @@ let renderFn = {
     init (){
         let me = this;
         me.readFileList(sourcePath,me.filesList);//读取到基础列表
+        Object.keys(me.filesList).forEach(k => {
+            if(me.filesList[k].length == 1){
+                delete me.filesList[k];
+            }
+        });
         // console.log(JSON.stringify(me.filesList,'',2));
         me.renderSidebar();
     },

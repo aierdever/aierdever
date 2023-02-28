@@ -1,6 +1,5 @@
 export default {
   "/docs/pcwork/base": [
-    "index.html",
     "1.files",
     "2.includeJs",
     "3.contInit",
@@ -72,9 +71,6 @@ export default {
     "03.router",
     "04.store",
     "05.api"
-  ],
-  "/docs/souni": [
-    "index.html"
   ],
   "/docs/souni/js": [
     "index.html",

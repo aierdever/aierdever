@@ -9,8 +9,8 @@
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
     "build": "vuepress build .",
-    "go": "node ./.vuepress/render.js && vuepress build .",
-    "sidebar": "node ./.vuepress/render.js"
+    "go": "node ./.vuepress/config/renderSidebar.js && vuepress build .",
+    "side": "node ./.vuepress/config/renderSidebar.js"
   },
   "dependencies": {
     "@vuepress/client": "2.0.0-beta.60",
@@ -21,6 +21,7 @@
     "vuepress-theme-reco": "2.0.0-beta.50"
   },
   "devDependencies": {
+    "@vuepress/plugin-container": "2.0.0-beta.60",
     "@vuepress/utils": "2.0.0-alpha.1",
     "package-name": "^0.1.0"
   }

@@ -1,16 +1,15 @@
 import { defineUserConfig } from "vuepress";
-// import { getDirname, path } from '@vuepress/utils'
-import series from "./sidebar";
-import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom';
-import { prismjsPlugin } from '@vuepress/plugin-prismjs';
-import type { DefaultThemeOptions } from "vuepress";
+import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
+import { prismjsPlugin } from "@vuepress/plugin-prismjs";
+// import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
-// const __dirname = getDirname(import.meta.url)
+import series from "./config/sidebar";
+import navContainer from "./config/navContainer";
 
 export default defineUserConfig({
   title: "爱尔前端文档博客",
   description: "爱尔前端Api手册、技术博客",
-  head: [["link",{rel: 'icon', href: '/images/logo.png'}]],
+  head: [["link", { rel: "icon", href: "/images/logo.png" }]],
   plugins: [
     mediumZoomPlugin({
       // 配置项
@@ -18,18 +17,14 @@ export default defineUserConfig({
     prismjsPlugin({
       // 配置项
     }),
+    ...navContainer, //自定义 nav 容器
   ],
   port: 1208,
-    locales: {
-    "/": {
-      lang: "zh-CN",
-    },
-  },
-    // alias: {
-  //   '@alias': path.resolve(__dirname, './path/to/some/dir'),
-  // },
   theme: recoTheme({
-    password: ['cbe2a69f9c79e5c68448734d1a580dae','1129cdf905e4e68fe0be1022d143ee05'],
+    password: [
+      "cbe2a69f9c79e5c68448734d1a580dae",
+      "1129cdf905e4e68fe0be1022d143ee05",
+    ],
     autoSetSeries: true,
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
@@ -39,16 +34,20 @@ export default defineUserConfig({
     docsBranch: "master",
     docsDir: "",
     lastUpdatedText: "",
-    primaryColor: '#e95600',
+    primaryColor: "#e95600",
     // series 为原 sidebar
     series,
     navbar: [
       { text: "首页", link: "/" },
-      { text: "分类", link: "/categories/shuoming/1/" },
-      { text: "标签", link: "/tags/shuoming/1/" },
-      { text: "PC端框架手册", link: "/docs/pcwork/index.html",
+      { text: "文档导航", link: "/docs/index.html" },
+      // { text: "分类", link: "/categories/shuoming/1/" },
+      // { text: "标签", link: "/tags/shuoming/1/" },
+      {
+        text: "PC端框架手册",
+        link: "/docs/pcwork/",
         children: [
-          { text: "指南", link: "/docs/pcwork/base/" },
+          { text: "首页", link: "/docs/pcwork/" },
+          { text: "框架基础", link: "/docs/pcwork/base/1.files.html" },
           { text: "样式及图标", link: "/docs/pcwork/css/1.grid.html" },
           { text: "数据表格", link: "/docs/pcwork/datagrid/1.newgrid.html" },
           { text: "表单", link: "/docs/pcwork/form/1.rules.html" },
@@ -56,9 +55,12 @@ export default defineUserConfig({
           { text: "其他", link: "/docs/pcwork/other/index.html" },
         ],
       },
-      { text: "soUni", link: "/docs/souni/index.html",
+      {
+        text: "soUni",
+        link: "/docs/souni/index.html",
         children: [
-          { text: "指南", link: "/docs/souni/frame/index.html" },
+          { text: "首页", link: "/docs/souni/" },
+          { text: "快速上手", link: "/docs/souni/frame/index.html" },
           { text: "组件", link: "/docs/souni/components/index.html" },
           { text: "Js", link: "/docs/souni/js/index.html" },
         ],
@@ -137,7 +139,6 @@ export default defineUserConfig({
     //   recordIP: true,
     //   // hideComments: true // 隐藏评论
     // },
-    
   }),
   // debug: true,
 });
