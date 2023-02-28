@@ -5,7 +5,7 @@ comments: true
 
 :::: nav-group pc框架手册
 ::: nav icon-bank
-[首页](./pcwork/)
+[首页](./pcwork/index/)
 :::
 ::: nav icon-earth
 [框架基础](./pcwork/base/1.files.md)
@@ -29,7 +29,7 @@ comments: true
 
 :::: nav-group soUni手册
 ::: nav icon-bank
-[首页](./souni/)
+[首页](./souni/index/)
 :::
 ::: nav icon-cluster
 [快速上手](./souni/frame/)

@@ -44,26 +44,26 @@ export default defineUserConfig({
       // { text: "标签", link: "/tags/shuoming/1/" },
       {
         text: "PC端框架手册",
-        link: "/docs/pcwork/",
-        children: [
-          { text: "首页", link: "/docs/pcwork/" },
-          { text: "框架基础", link: "/docs/pcwork/base/1.files.html" },
-          { text: "样式及图标", link: "/docs/pcwork/css/1.grid.html" },
-          { text: "数据表格", link: "/docs/pcwork/datagrid/1.newgrid.html" },
-          { text: "表单", link: "/docs/pcwork/form/1.rules.html" },
-          { text: "弹窗", link: "/docs/pcwork/pop/index.html" },
-          { text: "其他", link: "/docs/pcwork/other/index.html" },
-        ],
+        link: "/docs/pcwork/index/",
+        // children: [
+        //   { text: "首页", link: "/docs/pcwork/" },
+        //   { text: "框架基础", link: "/docs/pcwork/base/1.files.html" },
+        //   { text: "样式及图标", link: "/docs/pcwork/css/1.grid.html" },
+        //   { text: "数据表格", link: "/docs/pcwork/datagrid/1.newgrid.html" },
+        //   { text: "表单", link: "/docs/pcwork/form/1.rules.html" },
+        //   { text: "弹窗", link: "/docs/pcwork/pop/index.html" },
+        //   { text: "其他", link: "/docs/pcwork/other/index.html" },
+        // ],
       },
       {
         text: "soUni",
-        link: "/docs/souni/index.html",
-        children: [
-          { text: "首页", link: "/docs/souni/" },
-          { text: "快速上手", link: "/docs/souni/frame/index.html" },
-          { text: "组件", link: "/docs/souni/components/index.html" },
-          { text: "Js", link: "/docs/souni/js/index.html" },
-        ],
+        link: "/docs/souni/index/",
+        // children: [
+        //   { text: "首页", link: "/docs/souni/" },
+        //   { text: "快速上手", link: "/docs/souni/frame/index.html" },
+        //   { text: "组件", link: "/docs/souni/components/index.html" },
+        //   { text: "Js", link: "/docs/souni/js/index.html" },
+        // ],
       },
       // {
       //   text: "文档",
