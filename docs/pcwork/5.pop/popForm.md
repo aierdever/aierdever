@@ -5,7 +5,8 @@ subSidebar: true
 categories:
 - pc框架
 tags:
-- pc框架 , pop
+- pc框架 
+- pop
 comments: true
 ---
 > `$pop.popForm` 基于**layer**及 `soform` 包装在当前页面显示form，可以帮助我们在当前层显示一个form。

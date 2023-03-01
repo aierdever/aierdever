@@ -47,7 +47,7 @@ aierdever
  └── README.md
 ```
 
-## 图片存放目录
+## 静态资源存放目录
 
 书写博文时，我们经常会有图片或资源需要存放，
 为了便于维护和查找，请将资源存放在 `/.vuepress/pubilc/` 中(如上目录结构，已分类)，
@@ -61,9 +61,9 @@ vuepress-theme-reco@2.x 是通过 Xicons 来配置图标的，[Xicons](https://w
 ```
 
 ## 博客书写规范
-- 博客请放置在对应年份的文件夹中，文件名为 `月日时-内容标题.md`，如： `020418-howtouse.md`，这样博客系统会自动帮收入博客列表中，
+- 博客请放置在`blogs`里对应年份的文件夹中，文件名为 `月日时-内容标题.md`，如： `020418-howtouse.md`，这样博客系统会自动帮收入博客列表中，
 - 博客的头部文件请注意正确书写 `Frontmatter`，很多的 `Frontmatter`名称和方式，请[参考官方文档](https://v2.vuepress.vuejs.org/zh/reference/frontmatter.html)。
-- 注意写好 `tags` 和 `categories`， 会自动根据这些字段分类文章，多个字段，用英文逗号隔开。
+- 注意写好 `tags` 和 `categories`，多个字段分组书写，博客会自动根据这些字段自动分类文章。
 
 ```
 ---
@@ -72,6 +72,7 @@ date: 2023-02-24 16:32
 author: bujichong
 tags:
  - 说明文档
+ - info
 categories:
  - 说明文档
 ---
@@ -88,31 +89,32 @@ subSidebar: true
 categories:
 - pc框架
 tags:
-- pc框架 , 框架基础
+- pc框架
+- 框架基础
 comments: true
 
 ---
 ```
 
-## 在config.ts 中添加主导航
+## 添加主导航
 
-博客是可以自动生成的，但是文档需要添加目录，请在 `/.vuepress/config.ts` 的 navbar 中添加导航，示例如：
-
+写完手册文档，请在 `/.vuepress/config/navbar.ts`中添加入口导航，示例如：
 ```js
 navbar: [
     ...
-    { text: "soUni", link: "/docs/souni/index.html",
-        children: [
-            { text: "指南", link: "/docs/souni/frame/index.html" },
-            { text: "组件", link: "/docs/souni/components/index.html" },
-            { text: "Js", link: "/docs/souni/js/index.html" },
-        ],
+    { text: "soUni", link: "/docs/souni/index.html",icon: 'Document'
+        // children: [
+        //     { text: "指南", link: "/docs/souni/frame/index.html" },
+        //     { text: "组件", link: "/docs/souni/components/index.html" },
+        //     { text: "Js", link: "/docs/souni/js/index.html" },
+        // ],
     },
     ...
 ]
 ```
 
 ## 页面中添加导航
+为了更好的导航所有文档，我们专门设置了文档首页： `docs/index.md`，书写完文档，请将自己文档的导航目录添加到这个文件中。
 为了更好的显示文档的导航，我们定制了2个专有容器 `nav-group` 和 `nav`，
 
 **使用方法:**
@@ -152,7 +154,7 @@ navbar: [
 :::
 ::::
 
-## 生成文档侧边栏目录
+## 侧边栏目录
 
 文档是不会自动生成侧边栏的，书写文档后请运行下命令生成侧边栏，或者build 网站直接使用 `go` 命令。
 
