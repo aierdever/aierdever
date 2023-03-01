@@ -32,12 +32,12 @@ comments: true
 [首页](./souni/index/)
 :::
 ::: nav icon-cluster
-[快速上手](./souni/1.base/)
+[快速上手](./souni/1.base/0.first.md)
 :::
 ::: nav icon-container
-[组件](./souni/2.components/)
+[组件](./souni/2.components/0.first.md)
 :::
 ::: nav icon-calculator
-[Js](./souni/3.js/)
+[Js](./souni/3.js/0.first.md)
 :::
 ::::

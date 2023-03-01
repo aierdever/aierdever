@@ -478,7 +478,7 @@ export default {
     {
       "text": "1.base",
       "children": [
-        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/0.first",
         "/docs/souni/1.base/01.structure",
         "/docs/souni/1.base/02.style",
         "/docs/souni/1.base/03.router",
@@ -489,7 +489,7 @@ export default {
     {
       "text": "2.components",
       "children": [
-        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/0.first",
         "/docs/souni/2.components/btn",
         "/docs/souni/2.components/item",
         "/docs/souni/2.components/num",
@@ -516,7 +516,7 @@ export default {
     {
       "text": "3.js",
       "children": [
-        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/0.first",
         "/docs/souni/3.js/01.tools",
         "/docs/souni/3.js/02.ajax",
         "/docs/souni/3.js/03.pop",
@@ -535,7 +535,7 @@ export default {
     {
       "text": "1.base",
       "children": [
-        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/0.first",
         "/docs/souni/1.base/01.structure",
         "/docs/souni/1.base/02.style",
         "/docs/souni/1.base/03.router",
@@ -546,7 +546,7 @@ export default {
     {
       "text": "2.components",
       "children": [
-        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/0.first",
         "/docs/souni/2.components/btn",
         "/docs/souni/2.components/item",
         "/docs/souni/2.components/num",
@@ -573,7 +573,7 @@ export default {
     {
       "text": "3.js",
       "children": [
-        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/0.first",
         "/docs/souni/3.js/01.tools",
         "/docs/souni/3.js/02.ajax",
         "/docs/souni/3.js/03.pop",
@@ -592,7 +592,7 @@ export default {
     {
       "text": "1.base",
       "children": [
-        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/0.first",
         "/docs/souni/1.base/01.structure",
         "/docs/souni/1.base/02.style",
         "/docs/souni/1.base/03.router",
@@ -603,7 +603,7 @@ export default {
     {
       "text": "2.components",
       "children": [
-        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/0.first",
         "/docs/souni/2.components/btn",
         "/docs/souni/2.components/item",
         "/docs/souni/2.components/num",
@@ -630,7 +630,7 @@ export default {
     {
       "text": "3.js",
       "children": [
-        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/0.first",
         "/docs/souni/3.js/01.tools",
         "/docs/souni/3.js/02.ajax",
         "/docs/souni/3.js/03.pop",
@@ -649,7 +649,7 @@ export default {
     {
       "text": "1.base",
       "children": [
-        "/docs/souni/1.base/index.html",
+        "/docs/souni/1.base/0.first",
         "/docs/souni/1.base/01.structure",
         "/docs/souni/1.base/02.style",
         "/docs/souni/1.base/03.router",
@@ -660,7 +660,7 @@ export default {
     {
       "text": "2.components",
       "children": [
-        "/docs/souni/2.components/index.html",
+        "/docs/souni/2.components/0.first",
         "/docs/souni/2.components/btn",
         "/docs/souni/2.components/item",
         "/docs/souni/2.components/num",
@@ -687,7 +687,7 @@ export default {
     {
       "text": "3.js",
       "children": [
-        "/docs/souni/3.js/index.html",
+        "/docs/souni/3.js/0.first",
         "/docs/souni/3.js/01.tools",
         "/docs/souni/3.js/02.ajax",
         "/docs/souni/3.js/03.pop",
