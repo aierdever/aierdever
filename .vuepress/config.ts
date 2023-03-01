@@ -40,7 +40,7 @@ export default defineUserConfig({
     docsRepo: "https://github.com/aierdever/aierdever.github.io",
     docsBranch: "master",
     docsDir: "",
-    primaryColor: "#187DCF",
+    primaryColor: "#269bfa",
     series,
     navbar,
     bulletin: notice

@@ -1,6 +1,7 @@
 ---
 title: css3之object-fit
 date: 2017-11-28 09:45
+author: bujichong
 comments: true
 categories:
 - css
