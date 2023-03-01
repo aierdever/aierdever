@@ -34,13 +34,13 @@ export default defineUserConfig({
     docsBranch: "master",
     docsDir: "",
     lastUpdatedText: "",
-    primaryColor: "#e95600",
+    primaryColor: "#187DCF",
     // primaryColor: "#0085e3",
     // series 为原 sidebar
     series,
     navbar: [
       { text: "首页", link: "/" },
-      { text: "文档导航", link: "/docs/index.html" },
+      { text: "文档首页", link: "/docs/index.html" },
       // { text: "分类", link: "/categories/shuoming/1/" },
       // { text: "标签", link: "/tags/shuoming/1/" },
       {

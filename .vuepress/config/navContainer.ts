@@ -3,20 +3,23 @@
  * @Email: bujichong@163.com
  * @Date: 2023-02-28 14:42:25
  * @LastEditors: bujichong
- * @LastEditTime: 2023-02-28 14:44:43
+ * @LastEditTime: 2023-03-01 09:48:25
  * @Author: bujichong
  */
 import { containerPlugin } from "@vuepress/plugin-container";
 
 const colors = [
   "#e0faff",
-  "#e7fff5",
-  "#ffe7f0",
+  "#EAEBFD",
+  "#FCEBEB",
   "#e7f2ff",
-  "#e7ffe9",
-  "#f9f2f5",
-  "#fdf2d6",
-  "#dbfffa",
+  "#ECFBEC",
+  
+  "#FBF0F8",
+  "#FBF3E6",
+  "#E1F9F7",
+  "#E9EAEF",
+  "#F4F8E0",
 ];
 
 export default [
