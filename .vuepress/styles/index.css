@@ -2,19 +2,24 @@
 /* @import '//at.alicdn.com/t/font_2863733_p9x15qvaky.css'; */
 /* @import '/iconfont/iconfont.css'; */
 html,body{font-size: 14px!important;line-height: 1.5rem!important;}
-table,ul,ol,p{line-height:1.8rem!important;}
-blockquote,code,pre{font-size:14px!important;line-height: 1.5rem!important;}
-h1, h2, h3, h4, h5, h6{margin-bottom: 1.2rem!important;}
+
+.page-container{
+    table,ul,ol,p{line-height:1.8rem;}
+    blockquote,code,pre{font-size:14px;line-height: 1.5rem;}
+    h1, h2, h3, h4, h5, h6{margin-bottom: 1.2rem;}
+    p, ol, ul, table{margin-top:1rem;margin-bottom: 1rem;}
+}
 
 h1{color:#111;}
 h2{font-size:1.4rem!important;color:#222;}
 h3{font-size:1.2rem!important;color:#333;}
 h4{font-size:1.1rem!important;color:#555;}
-strong{color:#1895cf;}
 .dark h1{color:#c3dcf3;}
 .dark h2{color:#bcd7fa;}
 .dark h3,.dark h4{color:#809fb9;}
-p{margin:1rem 0!important;}
+strong{color:#1895cf;}
+p.custom-container-title{margin:0!important;}
+
 .banner-wrapper .banner-brand__content h1{color:#ffb100;}
 .banner-wrapper .banner-brand__content p{color:#dcd9fc;}
 @media (min-width: 768px){
