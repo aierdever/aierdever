@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
-import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 // import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import series from "./config/sidebar";
@@ -14,9 +13,6 @@ export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/images/logo.png" }]],
   plugins: [
     mediumZoomPlugin({
-      // 配置项
-    }),
-    prismjsPlugin({
       // 配置项
     }),
     ...navContainer, //自定义 nav 容器

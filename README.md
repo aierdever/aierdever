@@ -15,8 +15,8 @@ banner:
     height: 400px
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
-isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+    - { icon: 'LogoGithub', link: 'https://github.com/aierdever/aierdever.github.io' }
+# isShowTitleInHome: true
+# actionText: About
+# actionLink: /views/other/about
 ---

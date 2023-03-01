@@ -4,7 +4,6 @@ specifiers:
   '@vuepress/client': 2.0.0-beta.60
   '@vuepress/plugin-container': 2.0.0-beta.60
   '@vuepress/plugin-medium-zoom': 2.0.0-beta.60
-  '@vuepress/plugin-prismjs': 2.0.0-beta.60
   '@vuepress/utils': 2.0.0-alpha.1
   package-name: ^0.1.0
   vue: ^3.2.47
@@ -14,7 +13,6 @@ specifiers:
 dependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.60
   '@vuepress/plugin-medium-zoom': 2.0.0-beta.60
-  '@vuepress/plugin-prismjs': 2.0.0-beta.60
   vue: registry.npmmirror.com/vue/3.2.47
   vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.60_snvqa5y7zj4eyr5mp3ym37ho7q
   vuepress-theme-reco: registry.npmmirror.com/vuepress-theme-reco/2.0.0-beta.50

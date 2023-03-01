@@ -1,0 +1,19 @@
+
+html,body{font-size: 14px!important;line-height: 1.5rem!important;}
+.page-container{
+    table,ul,ol,p{line-height:1.8rem;}
+    blockquote,code,pre{font-size:14px;line-height: 1.5rem;}
+    h1, h2, h3, h4, h5, h6{margin-bottom: 1.2rem;}
+    p, ol, ul, table{margin-top:1rem;margin-bottom: 1rem;}
+
+    div[class*="language-"]{background-color: #293142;}
+    div[class*="language-"].line-numbers-mode .line-numbers{background-color: #333c4d;width:3.2rem;}
+    div[class*="language-"] pre[class*="language-"]{color:#7db6e6;}
+    .token.string, .token.char, .token.attr-value, .token.regex, .token.variable{color:#9dc464;}
+    .token.property, .token.value, .token.class-name, .token.constant, .token.symbol{color:#25cdd3;}
+    .token.boolean, .token.number, .token.function{color:#f7be53}
+    .token.selector, .token.important, .token.atrule, .token.keyword, .token.builtin{color:#fa8383;}
+    .token.string, .token.char, .token.attr-value, .token.regex, .token.variable{color:53d599;}
+    .token.attr-name{color:#c394d6;}
+    .token.comment, .token.block-comment, .token.prolog, .token.doctype, .token.cdata{color:#888;}
+}
