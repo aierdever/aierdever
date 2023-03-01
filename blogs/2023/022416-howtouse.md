@@ -39,7 +39,7 @@ aierdever
  │   ├── sidebar.js //存放侧边栏json数据
  │   ├── styles
  │   │   └── index.css
- │   └── vue-previews
+ │   └── vue-previews //vue 预览文件夹
  │       ├── demo.ts
  │       └── test.vue
  ├── package.json
@@ -53,9 +53,15 @@ aierdever
 为了便于维护和查找，请将资源存放在 `/.vuepress/pubilc/` 中(如上目录结构，已分类)，
 博客请在目录中新建文件夹，分类存放。
 如：文档 pcwork 的资源我们就放置在 `/.vuepress/pubilc/docs/pcwork`
+## 图标使用
+vuepress-theme-reco@2.x 是通过 Xicons 来配置图标的，[Xicons](https://www.xicons.org/#/zh-CN) 只集成了 **`carbon` 1 种图标**，几乎可以满足绝大部分场景。
+如果想要在 markdown 中输出一个星星图标 <xicons icon="Star" />，你就可以在 markdown 中这样编辑代码：
+```vue
+<xicons icon="Star" />
+```
 
 ## 博客书写规范
-- 博客请放置在对应年份的文件夹中，文件名为 `月日时.md`，如： `020418.md`，这样博客系统会自动帮收入博客列表中，
+- 博客请放置在对应年份的文件夹中，文件名为 `月日时-内容标题.md`，如： `020418-howtouse.md`，这样博客系统会自动帮收入博客列表中，
 - 博客的头部文件请注意正确书写 `Frontmatter`，很多的 `Frontmatter`名称和方式，请[参考官方文档](https://v2.vuepress.vuejs.org/zh/reference/frontmatter.html)。
 - 注意写好 `tags` 和 `categories`， 会自动根据这些字段分类文章，多个字段，用英文逗号隔开。
 
@@ -106,19 +112,61 @@ navbar: [
 ]
 ```
 
+## 页面中添加导航
+为了更好的显示文档的导航，我们定制了2个专有容器 `nav-group` 和 `nav`，
+
+**使用方法:**
+``` md
+:::: nav-group [组标题]
+    ::: nav [导航图标]
+    [导航文字](链接)
+    :::
+::::
+```
+图标从 [Xicons](https://www.xicons.org/#/zh-CN) 的 **`carbon` 图标** 中查找，设置 icon名称即可。
+
+**示例代码：**
+``` md
+:::: nav-group pc框架手册
+    ::: nav Home
+    [首页](/docs/pcwork/index/)
+    :::
+    ::: nav Book
+    [框架基础](/docs/pcwork/1.base/1.files.md)
+    :::
+    ::: nav Carbon3DPrintMesh
+    [样式及图标](/docs/pcwork/2.css/1.grid.md)
+    :::
+::::
+```
+**显示效果：**
+:::: nav-group pc框架手册
+::: nav Home
+[首页](/docs/pcwork/index/)
+:::
+::: nav Book
+[框架基础](/docs/pcwork/1.base/1.files.md)
+:::
+::: nav Carbon3DPrintMesh
+[样式及图标](/docs/pcwork/2.css/1.grid.md)
+:::
+::::
+
 ## 生成文档侧边栏目录
 
-文档是不会自动生成侧边栏的，书写文档后请运行下命令生成侧边栏。
+文档是不会自动生成侧边栏的，书写文档后请运行下命令生成侧边栏，或者build 网站直接使用 `go` 命令。
 
-```
+```bash
 ## npm
-npm run sidebar
+npm run side
+##npm run go 
 
 ## yarn
-yarn sidebar
+yarn side
 
 ## pnpm
-pnpm sidebar
+pnpm side
+## pnpm go 
 ```
 
 ## 最后

@@ -3,7 +3,7 @@
  * @Email: bujichong@163.com
  * @Date: 2023-02-28 14:42:25
  * @LastEditors: bujichong
- * @LastEditTime: 2023-03-01 09:48:25
+ * @LastEditTime: 2023-03-01 10:58:51
  * @Author: bujichong
  */
 import { containerPlugin } from "@vuepress/plugin-container";
@@ -14,7 +14,7 @@ const colors = [
   "#FCEBEB",
   "#e7f2ff",
   "#ECFBEC",
-  
+
   "#FBF0F8",
   "#FBF3E6",
   "#E1F9F7",
@@ -23,19 +23,21 @@ const colors = [
 ];
 
 export default [
-  containerPlugin({ //nav 导航容器
+  containerPlugin({
+    //nav 导航容器
     type: "nav",
     render: (tokens, idx, options, env, self) => {
       // console.log(tokens,index,options,env,self);
       const { type, info } = tokens[idx];
-      const [customType, title, color] = info.trim().split(" ");
+      const [customType, icon, color] = info.trim().split(" ");
       if (/container\_\w+\_open/g.test(type)) {
         const realC =
           color || colors[Math.floor(colors.length * Math.random())];
         const bgch = `style="background-color:${realC};"`;
-        return `<div class="nav-container ${customType}" ${bgch}><h4 class="nav-title"><span class="iconfont ${
-          title || "icon-cellbox"
-        }"></span></h4>`;
+        return `<div class="nav-container ${customType}" ${bgch}>
+        <xicons class="xicon" iconSize="28" icon="${
+          icon || "Cube"
+        }" />`;
       }
       if (/container\_\w+\_close/g.test(type)) {
         return "</div>";
@@ -43,7 +45,8 @@ export default [
       return self.renderToken(tokens, idx, options);
     },
   }),
-  containerPlugin({//nav 导航组
+  containerPlugin({
+    //nav 导航组
     type: "nav-group",
     before: (info: string) => {
       return `<div class="nav-group-container">${

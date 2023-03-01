@@ -4,40 +4,40 @@ comments: true
 ---
 
 :::: nav-group pc框架手册
-::: nav icon-bank
+::: nav Home
 [首页](./pcwork/index/)
 :::
-::: nav icon-earth
+::: nav Book
 [框架基础](./pcwork/1.base/1.files.md)
 :::
-::: nav icon-crown
+::: nav Carbon3DPrintMesh
 [样式及图标](./pcwork/2.css/1.grid.md)
 :::
-::: nav icon-sever
+::: nav DataTable
 [数据表格](./pcwork/3.datagrid/1.newGrid.md)
 :::
-::: nav icon-detail
+::: nav DataVis4
 [表单](./pcwork/4.form/1.rules.md)
 :::
-::: nav icon-block
+::: nav OpenPanelBottom
 [弹窗](./pcwork/5.pop/common.md)
 :::
-::: nav icon-appstoreadd
+::: nav Basketball
 [其他](./pcwork/6.other/1.uploader.md)
 :::
 ::::
 
 :::: nav-group soUni手册
-::: nav icon-bank
+::: nav Home
 [首页](./souni/index/)
 :::
-::: nav icon-cluster
+::: nav DeliveryParcel
 [快速上手](./souni/1.base/0.first.md)
 :::
-::: nav icon-container
+::: nav Development
 [组件](./souni/2.components/0.first.md)
 :::
-::: nav icon-calculator
+::: nav Carbon
 [Js](./souni/3.js/0.first.md)
 :::
 ::::
