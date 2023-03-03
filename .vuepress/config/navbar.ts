@@ -3,7 +3,7 @@
  * @Email: bujichong@163.com
  * @Date: 2023-03-01 11:06:31
  * @LastEditors: bujichong
- * @LastEditTime: 2023-03-01 11:25:08
+ * @LastEditTime: 2023-03-03 09:22:05
  * @Author: bujichong
  */
 const navbar = [
@@ -17,7 +17,7 @@ const navbar = [
       icon: 'Document',
     },
     {
-      text: "soUni手册",
+      text: "uni小程序开发手册",
       link: "/docs/souni/index/",
       icon: 'ContentDeliveryNetwork',
     },

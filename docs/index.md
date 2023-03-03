@@ -27,7 +27,7 @@ comments: true
 :::
 ::::
 
-:::: nav-group soUni手册
+:::: nav-group uni小程序开发手册
 ::: nav Home
 [首页](./souni/index/)
 :::
