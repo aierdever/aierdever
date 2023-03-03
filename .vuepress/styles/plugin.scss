@@ -27,3 +27,6 @@ html,body{font-size: 14px!important;line-height: 1.5rem!important;}
     .token.attr-name{color:#c394d6;}
     .token.comment, .token.block-comment, .token.prolog, .token.doctype, .token.cdata{color:#888;}
 }
+.dark .page-container{
+    blockquote{box-shadow:none;}
+}
