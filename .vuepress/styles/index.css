@@ -1,7 +1,7 @@
 
 /* @import '//at.alicdn.com/t/font_2863733_p9x15qvaky.css'; */
 @import './plugin.scss';
-
+a:hover{text-decoration: underline;color:orangered!important;}
 
 h1{color:#111;}
 h2{font-size:1.4rem!important;color:#222;}
@@ -43,12 +43,12 @@ p.custom-container-title{margin:0!important;}
 .nav-group-container{
     display: flex;
     position: relative;
-    padding-top:3em;
+    padding-top:6em;
     flex-wrap: wrap;
     margin:2em 0;
 }
 .nav-group-container *{padding:0;margin:0;}
-.nav-group-title{position: absolute;top:0;left:0.5em;font-size: 1.2em;}
+.nav-group-title{position: absolute;top:0.5em;left:0;right:0;font-size: 1.2em;}
 .nav-container{
 position: relative;top:0;
 width:110px;height:100px;text-align: center;

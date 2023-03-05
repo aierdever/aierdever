@@ -2,8 +2,8 @@
  * @Descripttion: 自定义容器，用来渲染的导航
  * @Email: bujichong@163.com
  * @Date: 2023-02-28 14:42:25
- * @LastEditors: bujichong
- * @LastEditTime: 2023-03-01 10:58:51
+ * @LastEditors: SC-202002031034
+ * @LastEditTime: 2023-03-05 13:11:47
  * @Author: bujichong
  */
 import { containerPlugin } from "@vuepress/plugin-container";
@@ -50,7 +50,7 @@ export default [
     type: "nav-group",
     before: (info: string) => {
       return `<div class="nav-group-container">${
-        info ? `<h4 class="nav-group-title">${info}</h4>` : ""
+        info ? `<h2 class="nav-group-title">${info}</h2>` : ""
       }\n`;
     },
     after: (): string => {
