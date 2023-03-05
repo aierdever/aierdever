@@ -42,9 +42,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
@@ -109,9 +108,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
@@ -176,9 +174,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
@@ -243,9 +240,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
@@ -310,9 +306,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
@@ -377,9 +372,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
@@ -444,9 +438,8 @@ export default {
         "/docs/pcwork/4.form/2.sovals",
         "/docs/pcwork/4.form/3.easyvals",
         "/docs/pcwork/4.form/4.dater",
-        "/docs/pcwork/4.form/5.combobox",
-        "/docs/pcwork/4.form/6.combogrid",
-        "/docs/pcwork/4.form/7.combotree"
+        "/docs/pcwork/4.form/5.combo",
+        "/docs/pcwork/4.form/6.numberbox"
       ]
     },
     {
