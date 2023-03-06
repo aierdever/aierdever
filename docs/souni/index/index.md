@@ -23,3 +23,14 @@ comments: true
 [Js](../3.js/0.first.md)
 :::
 ::::
+
+
+## 相关API手册
+
+除本手册包含的API外，更多 Vue，Uni 和 uView 的 API请查看对应手册。
+
+- [Vue 2 API](https://cn.vuejs.org/v2/api/)
+- [uni 官方API](https://uniapp.dcloud.io/api/README)
+- [uView 官方API](https://www.uviewui.com/)
+- [uni-simple-router API](https://hhyang.cn/)
+
