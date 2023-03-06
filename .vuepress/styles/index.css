@@ -20,10 +20,16 @@ p.custom-container-title{margin:0!important;}
 .site-brand .logo{position: relative;top:-3px;margin-right:0.3em!important;width:2.2rem!important;height:2.2rem!important;}
 .banner-wrapper .banner-brand__content h1{color:#ffb100;margin-top: 6rem;padding-left:360px;font-size:2rem;}
 .banner-wrapper .banner-brand__content p{color:#bdf7cc;padding-left:500px;}
+.common-wrapper .page-catalog-container ul .page-catalog-menu-depth_2{padding-top:0.6rem;padding-bottom:0.6rem;}
+.common-wrapper .page-catalog-container{width:16rem;padding-right:2rem;}
 }
 .post-item-container .title{font-size: 1rem!important;}
 .post-item-container .title a{color:#187DCF!important;}
 
+.page-catalog-container h5{color:#187DCF;font-size: 1.2rem;margin-bottom: 1rem;}
+@media (min-width: 1600px){
+.common-wrapper .page-catalog-container{width:18rem;}
+}
 /* 隐藏编辑链接 */
 .edit-link{display: none;}
 
