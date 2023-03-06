@@ -3,7 +3,7 @@
  * @Email: bujichong@163.com
  * @Date: 2023-03-01 11:06:31
  * @LastEditors: bujichong
- * @LastEditTime: 2023-03-01 11:21:30
+ * @LastEditTime: 2023-03-06 12:39:16
  * @Author: bujichong
  */
 const notice =  {
@@ -15,7 +15,7 @@ const notice =  {
         //   },
         {
           type: "text",
-          content: `🎉🎉🎉 爱尔前端博客已搭建完成，欢迎大家使用，如有问题， 请先看 [如何使用这个博客]。`,
+          content: `🎉🎉🎉 爱尔前端博客已搭建完成，欢迎大家使用，如有问题， 请先看 [欢迎入驻石火之间]。`,
           style: "font-size: 12px;",
         },
         // {
