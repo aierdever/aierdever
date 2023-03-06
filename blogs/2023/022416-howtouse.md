@@ -7,20 +7,16 @@ tags:
 categories:
  - 说明
 ---
-
-::: info 引子
-**隙中驹，石中火** , 时间如白驹飞驰，击石一闪即灭的火花，而智慧的火花闪亮间照亮了生命的原野。
-
+##### **隙中驹，石中火~** 
+时间如白驹飞驰，又如击石一闪即灭的火花，   
+而智慧的火花刹那间照亮了生命的原野。  
 欢迎入驻爱尔前端文档博客——石火之间，**愿你在这儿留下思考的脚印，体验的圣典** ~
-:::
 
 ## 欢迎使用
 石火之间博客 是采用 [`vuepress 2.0`](https://v2.vuepress.vuejs.org/zh/)创建，整个渲染是基于 `vue3 + vite` 的，
-同时，我们集成了最流行的 `vuepress` 主题 [`vuepress-theme-reco`](http://v2.vuepress-reco.recoluan.com/)。
-
+同时，我们集成了最流行的 `vuepress` 主题 [`vuepress-theme-reco`](http://v2.vuepress-reco.recoluan.com/)。  
 需要说明的是，这个主题 集合了 **博客** 和 **文档** 两个功能。 
-书写博客或文档都是采用最流行的`markdown`格式。
-
+书写博客或文档都是采用最流行的`markdown`格式。  
 **注：** 为了便于生成导航，文档请使用 **.md** 做文件后缀名。
 
 ## 目录
