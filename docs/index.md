@@ -41,3 +41,11 @@ comments: true
 [Js](./souni/3.js/0.first.md)
 :::
 ::::
+
+:::: nav-group 爱尔眼科专业浏览器
+::: nav Home
+[首页](./bluecore//index/)
+:::
+::: nav Information
+[安装步骤及注意事项](./bluecore/1.use/1.setup.md)
+:::

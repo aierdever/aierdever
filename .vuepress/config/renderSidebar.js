@@ -6,12 +6,13 @@ const sourcePath = path.resolve(__dirname, '../../docs/')
 const barFile = path.resolve(__dirname,'./sidebar.js');
 
 let renderFn = {
-    booksList: ['/docs/pcwork','/docs/souni'],
+    booksList: ['/docs/pcwork','/docs/souni','/docs/bluecore'],
     filesList : {},
     newFilesList: {},
     barData : {
         '/docs/pcwork':[],
         '/docs/souni':[],
+        '/docs/bluecore':[],
     },
     navTxt : '',
     init (){

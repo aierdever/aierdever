@@ -26,6 +26,7 @@ html,body{font-size: 14px!important;line-height: 1.5rem!important;}
     p, ol, ul, table{margin-top:1rem;margin-bottom: 1rem;}
     blockquote{background-color: #eefaff;padding-left: 1rem;box-shadow:0 0 4px inset #d9e3ec;border-left-color: #51afee;}
 
+    .imgbox img{display: inline;}
     div[class*="language-"]{background-color: #293142;}
     div[class*="language-"].line-numbers-mode .line-numbers{background-color: #333c4d;width:3.2rem;}
     div[class*="language-"] pre[class*="language-"]{color:#7db6e6;}
