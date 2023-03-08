@@ -18,7 +18,7 @@ comments: true
 [首页](../index/)
 :::
 ::: nav Information
-[安装步骤及注意事项](../1.use/1.setup.md)
+[浏览器安装](../1.use/1.setup.md)
 :::
 
 ::::

@@ -47,5 +47,5 @@ comments: true
 [首页](./bluecore//index/)
 :::
 ::: nav Information
-[安装步骤及注意事项](./bluecore/1.use/1.setup.md)
+[浏览器安装](./bluecore/1.use/1.setup.md)
 :::
