@@ -1,4 +1,34 @@
 export default {
+  "/docs/bluecore/index": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/bluecore/index/index.html"
+      ]
+    },
+    {
+      "text": "1.use",
+      "children": [
+        "/docs/bluecore/1.use/1.setup",
+        "/docs/bluecore/1.use/2.questions"
+      ]
+    }
+  ],
+  "/docs/bluecore/1.use": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/bluecore/index/index.html"
+      ]
+    },
+    {
+      "text": "1.use",
+      "children": [
+        "/docs/bluecore/1.use/1.setup",
+        "/docs/bluecore/1.use/2.questions"
+      ]
+    }
+  ],
   "/docs/pcwork/index": [
     {
       "text": "首页",
@@ -686,36 +716,6 @@ export default {
         "/docs/souni/3.js/03.pop",
         "/docs/souni/3.js/04.rules",
         "/docs/souni/3.js/05.sys"
-      ]
-    }
-  ],
-  "/docs/bluecore/index": [
-    {
-      "text": "首页",
-      "children": [
-        "/docs/bluecore/index/index.html"
-      ]
-    },
-    {
-      "text": "1.use",
-      "children": [
-        "/docs/bluecore/1.use/1.setup",
-        "/docs/bluecore/1.use/2.questions"
-      ]
-    }
-  ],
-  "/docs/bluecore/1.use": [
-    {
-      "text": "首页",
-      "children": [
-        "/docs/bluecore/index/index.html"
-      ]
-    },
-    {
-      "text": "1.use",
-      "children": [
-        "/docs/bluecore/1.use/1.setup",
-        "/docs/bluecore/1.use/2.questions"
       ]
     }
   ]

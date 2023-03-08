@@ -6,26 +6,37 @@ const sourcePath = path.resolve(__dirname, '../../docs/')
 const barFile = path.resolve(__dirname,'./sidebar.js');
 
 let renderFn = {
-    booksList: ['/docs/pcwork','/docs/souni','/docs/bluecore'],
+    booksList: [],
     filesList : {},
     newFilesList: {},
     barData : {
-        '/docs/pcwork':[],
-        '/docs/souni':[],
-        '/docs/bluecore':[],
+        // '/docs/pcwork':[],
     },
     navTxt : '',
     init (){
         let me = this;
+        me.getList();
         me.readFileList(sourcePath,me.filesList);//读取到基础列表
         me.renderListData();
-        // Object.keys(me.filesList).forEach(k => {
-        //     if(me.filesList[k].length == 1){
-        //         delete me.filesList[k];
-        //     }
-        // });
         // console.log(JSON.stringify(me.filesList,'',2));
         me.renderSidebar();
+    },
+    getList(){ //初始化需要读取的文件列表
+        const files = fs.readdirSync(sourcePath);
+        let folds = [];
+        files.forEach(file => {
+            let ph = fs.statSync(sourcePath + '/' + file,()=>{});
+
+            if(ph.isDirectory()){
+                folds.push(file);
+            }
+        });
+        // console.log(folds);
+        folds.forEach( foldName => {
+            const itemName = `/docs/${foldName}`;
+            this.booksList.push(itemName);
+            this.barData[itemName] = [];
+        });
     },
     renderListData(){
         var me = this;
