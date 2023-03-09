@@ -42,7 +42,7 @@ comments: true
 :::
 ::::
 
-:::: nav-group 爱尔眼科专业浏览器
+:::: nav-group 蓝芯浏览器
 ::: nav Home
 [首页](./bluecore//index/)
 :::
