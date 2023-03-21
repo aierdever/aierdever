@@ -3,7 +3,7 @@
  * @Email: bujichong@163.com
  * @Date: 2023-03-01 11:06:31
  * @LastEditors: bujichong
- * @LastEditTime: 2023-03-08 21:16:15
+ * @LastEditTime: 2023-03-21 16:53:33
  * @Author: bujichong
  */
 const navbar = [
@@ -20,6 +20,11 @@ const navbar = [
       text: "uni小程序开发手册",
       link: "/docs/souni/index/",
       icon: 'IbmCloudVpcEndpoints',
+    },
+    {
+      text: "综合文档",
+      link: "/docs/market/index/",
+      icon: 'CloudSatellite',
     },
     {
       text: "蓝芯浏览器",

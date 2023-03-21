@@ -29,6 +29,36 @@ export default {
       ]
     }
   ],
+  "/docs/market/index": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/market/index/index.html"
+      ]
+    },
+    {
+      "text": "1.h5",
+      "children": [
+        "/docs/market/1.h5/1.h5vuepower",
+        "/docs/market/1.h5/2.h5ResourcePublish"
+      ]
+    }
+  ],
+  "/docs/market/1.h5": [
+    {
+      "text": "首页",
+      "children": [
+        "/docs/market/index/index.html"
+      ]
+    },
+    {
+      "text": "1.h5",
+      "children": [
+        "/docs/market/1.h5/1.h5vuepower",
+        "/docs/market/1.h5/2.h5ResourcePublish"
+      ]
+    }
+  ],
   "/docs/pcwork/index": [
     {
       "text": "首页",
