@@ -103,7 +103,7 @@ let renderFn = {
             const fileFullPath = fullPath.replace(basePath,'').replace(/\\/ig,'/');
             const pathSplit = fileFullPath.lastIndexOf('/');
             const filePath = fileFullPath.slice(0,pathSplit);
-            let fileName = item.replace('.md','');
+            let fileName = item.replace(/(.md|.markdown)/,'');
             if(fileName == 'index' || fileName == 'readme'){
                 fileName = 'index.html'
             }
