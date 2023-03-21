@@ -44,10 +44,10 @@ comments: true
 
 :::: nav-group 综合文档
 ::: nav Home
-[首页](../market/index/)
+[首页](./market/index/)
 :::
 ::: nav CicsSystemGroup
-[系统相关](../market/1.system/1.vuepower.md)
+[系统相关](./market/1.system/1.vuepower.md)
 :::
 ::::
 
