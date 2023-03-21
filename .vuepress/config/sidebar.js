@@ -37,14 +37,14 @@ export default {
       ]
     },
     {
-      "text": "1.h5",
+      "text": "1.system",
       "children": [
-        "/docs/market/1.h5/1.h5vuepower",
-        "/docs/market/1.h5/2.h5ResourcePublish"
+        "/docs/market/1.system/1.vuepower",
+        "/docs/market/1.system/2.h5ResourcePublish"
       ]
     }
   ],
-  "/docs/market/1.h5": [
+  "/docs/market/1.system": [
     {
       "text": "首页",
       "children": [
@@ -52,10 +52,10 @@ export default {
       ]
     },
     {
-      "text": "1.h5",
+      "text": "1.system",
       "children": [
-        "/docs/market/1.h5/1.h5vuepower",
-        "/docs/market/1.h5/2.h5ResourcePublish"
+        "/docs/market/1.system/1.vuepower",
+        "/docs/market/1.system/2.h5ResourcePublish"
       ]
     }
   ],
