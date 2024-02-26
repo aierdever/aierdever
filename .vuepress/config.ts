@@ -39,7 +39,7 @@ export default defineUserConfig({
     primaryColor: "#269bfa",
     series,
     navbar,
-    bulletin: notice
+    // bulletin: notice
 
     // valineConfig 配置与 1.x 一致
     // valineConfig: {
